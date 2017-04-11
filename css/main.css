@@ -11,7 +11,7 @@ a{
 }
 
 /** NAV **/
-.nav {
+.navbar {
     height: 0;
     width: 100%;
     position: fixed;
@@ -25,12 +25,7 @@ a{
     transition: 0.5s;
 }
 
-.navbuttons {
-    padding-left: 40px;
-    padding-top: 10px;
-}
-
-#navbar a {
+.navbar a {
     padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 24px;
@@ -39,11 +34,16 @@ a{
     transition: 0.2s;
 }
 
-#navbar a:hover, .offcanvas a:focus{
+.navbar a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
 
-#navbar .closebtn {
+.navbuttons {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.navbar .closebtn {
     position: absolute;
     top: 0;
     font-size: 36px;
@@ -93,11 +93,6 @@ a{
 
     width:100%;
 
-}
-#content > a > div:nth-child(odd){
-}
-#content > a > div > div > span{
-    color:#aaa;
 }
 #content > .section{
     clear:both;
