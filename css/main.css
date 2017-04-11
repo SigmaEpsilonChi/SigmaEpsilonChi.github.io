@@ -3,33 +3,30 @@ body {
 }
 
 .sidenav {
-    height: 100%;
-    width: 0;
+    height: 0;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
+    overflow-y: hidden;
+    display: inline;
     transition: 0.5s;
-    padding-top: 60px;
+}
+
+.navbuttons {
+    padding-left: 40px;
+    padding-top: 10px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 24px;
     color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidetitle a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 32px;
-    color: #FFFFFF;
-    display: block;
+    display: inline;
     transition: 0.3s;
 }
 
@@ -40,18 +37,29 @@ body {
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
     font-size: 36px;
-    margin-left: 50px;
 }
 
 .main {
     font-family: "Lato", sans-serif;
 
     text-align: center;
-	vertical-align: middle;
+    vertical-align: middle;
 
     font-size: 24px;
+}
+
+.project {
+    font-family: "Lato", sans-serif;
+
+    text-align: center;
+    vertical-align: middle;
+
+    font-size: 16px;
+}
+
+img {
+    border-radius: 8px;
 }
 
 @media screen and (max-height: 450px) {
