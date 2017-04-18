@@ -29,7 +29,7 @@ a{
     padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 24px;
-    color: #818181;
+    color: #808080;
     display: inline;
     transition: 0.2s;
 }
@@ -137,6 +137,7 @@ a{
     margin: auto;
     text-align: center;
     display: block;
+    color: #808080;
 }
 
 .footer > #twitter {
@@ -144,5 +145,5 @@ a{
 }
 
 .footer > #homepage {
-    font-size: 20px;
+    font-size: 16px;
 }
