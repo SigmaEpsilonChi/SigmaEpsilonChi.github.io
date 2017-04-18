@@ -70,13 +70,11 @@ a{
     opacity: 0.7;
 }
 #content > a > div > div {
-
     color:#000;
     font-size: 18px;
     line-height: 24px;
 
     width:100%;
-
 }
 #content > .section {
     clear:both;
@@ -136,7 +134,9 @@ a{
 /** FOOTER **/
 
 .footer {
+    margin: auto;
     text-align: center;
+    display: block;
 }
 
 .footer > #twitter {
