@@ -9,7 +9,7 @@
 	<body>
 		<div id="nav-container"></div>
 		<script type="text/javascript">
-		$(document).ready(function() {
+		$(document).ready(function(){
 		$('#nav-container').load('/nav.html');
 		setTimeout(function(){document.getElementById("navbar").style.height = "52px";}, 1000);
 		});
@@ -90,5 +90,12 @@
 				</div>
 			</a>
 		</div>
+
+		<div id="footer-container"></div>
+		<script type="text/javascript">
+		$(document).ready(function(){
+		$('#footer-container').load('/footer.html');
+		});
+		</script>
 	</body>
 </html>

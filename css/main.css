@@ -135,3 +135,14 @@ a{
 
 /** FOOTER **/
 
+.footer {
+    text-align: center;
+}
+
+.footer > #twitter {
+    font-size: 24px;
+}
+
+.footer > #homepage {
+    font-size: 20px;
+}
