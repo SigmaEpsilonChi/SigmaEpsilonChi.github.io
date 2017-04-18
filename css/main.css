@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
 
 body {
     font-family: Raleway, sans-serif;
@@ -138,12 +138,13 @@ a{
     text-align: center;
     display: block;
     color: #808080;
-}
-
-.footer > #twitter {
-    font-size: 24px;
+    padding:4px;
 }
 
 .footer > #homepage {
-    font-size: 16px;
+    font-size: 24px;
+}
+
+.footer > #twitter {
+    font-size: 20px;
 }
