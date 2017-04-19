@@ -27,7 +27,6 @@ a {
 }
 
 .navbar a {
-    padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 24px;
     color: #808080;
@@ -40,7 +39,7 @@ a {
 }
 
 .navbuttons {
-    padding-left: 64px;
+    padding-left: 48px;
     padding-top: 12px;
 }
 
@@ -141,17 +140,17 @@ a {
     text-align: center;
     
     margin: auto;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 
 .footer > #homepage {
     font-size: 24px;
-    padding:8px;
+    padding:4px;
 }
 
 .footer > #twitter {
     font-size: 20px;
-    padding:8px;
+    padding:4px;
 }
 
 /** GAME **/
