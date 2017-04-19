@@ -8,10 +8,11 @@ body {
 
     display: block;
 
+    margin: 0;
     padding-bottom: 144px;
-
 }
 html {
+    margin: 0;
     position: relative;
     min-height: 100%;
 }
