@@ -23,6 +23,7 @@ a{
     overflow-y: hidden;
     display: inline;
     transition: 0.5s;
+    float: left;
 }
 
 .navbar a {
