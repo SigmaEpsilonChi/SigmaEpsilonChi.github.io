@@ -2,6 +2,7 @@
 
 body {
     font-family: Raleway, sans-serif;
+
     font-size: 28px;
     font-weight: 120;
 }
@@ -29,8 +30,8 @@ a {
 }
 
 .navbar a {
-    padding: 4px;
-    font-size: 24px;
+    padding: 8px;
+    font-size: 32px;
 
     color: #808080;
     transition: 0.2s;
@@ -42,8 +43,8 @@ a {
 }
 
 .navbuttons {
-    padding-left: 64px;
     padding-top: 8px;
+    padding-left: 64px;
 }
 
 .navbar .closebtn {
@@ -51,36 +52,36 @@ a {
     top: 0;
 }
 
-@media screen and (max-height: 450px) {
-  .navbar {padding-top: 15px;}
-  .navbar a {font-size: 18px;}
-}
-
 /** CONTENT **/
+
 #content {
     width: 700px;
     margin: auto;
     text-align: center;
 }
+
 #content > a > div {
     -webkit-transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -ms-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 }
+
 #content > a:hover > div {
     opacity: 0.7;
 }
+
 #content > a > div > div {
+    width:100%;
     color:#000;
     font-size: 18px;
     line-height: 24px;
 
-    width:100%;
 }
+
 #content > .section {
-    clear:both;
-    
+    clear: both;
+
     margin-top: 40px;
     margin-bottom: 25px;
 
