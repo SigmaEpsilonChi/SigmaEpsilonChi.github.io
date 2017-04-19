@@ -135,6 +135,7 @@ a{
 /** FOOTER **/
 
 .footer {
+    width: 100%;
     margin: auto;
     text-align: center;
     display: block;
