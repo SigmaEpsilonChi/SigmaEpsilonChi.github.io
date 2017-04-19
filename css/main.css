@@ -5,7 +5,7 @@ body {
     font-size: 28px;
     font-weight: 120;
 }
-a{
+a {
     color:#404040;
     text-decoration: none;
 }
@@ -40,14 +40,13 @@ a{
 }
 
 .navbuttons {
-    padding-left: 40px;
-    padding-top: 8px;
+    padding-left: 64px;
+    padding-top: 12px;
 }
 
 .navbar .closebtn {
     position: absolute;
     top: 0;
-    font-size: 36px;
 }
 
 @media screen and (max-height: 450px) {
@@ -136,26 +135,30 @@ a{
 
 .footer {
     width: 100%;
-    margin: auto;
-    text-align: center;
     display: block;
+
     color: #808080;
-    padding:4px;
+    text-align: center;
+    
+    margin: auto;
+    margin-top: 16px;
 }
 
 .footer > #homepage {
     font-size: 24px;
+    padding:8px;
 }
 
 .footer > #twitter {
     font-size: 20px;
+    padding:8px;
 }
 
 /** GAME **/
 
 .game {
     width: 100%;
-    
+
     margin-left: auto;
     margin-right: auto;
 
