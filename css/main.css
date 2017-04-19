@@ -149,3 +149,11 @@ a{
 .footer > #twitter {
     font-size: 20px;
 }
+
+/** GAME **/
+
+.game {
+    width: 100%;
+    vertical-align: center;
+    text-align: center;
+}
