@@ -8,8 +8,7 @@ body {
 
     display: block;
 
-    margin: auto;
-    padding-bottom: 128px;
+    padding-bottom: 144px;
 
 }
 html {
@@ -188,6 +187,7 @@ a {
 }
 
 .footer > div > a {
+    color: #888;
     transition: 0.5s;
 }
 
