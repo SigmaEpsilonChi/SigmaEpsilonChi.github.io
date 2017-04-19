@@ -8,11 +8,13 @@ body {
 
     display: block;
 
-    margin: 0;
+    width: 100%;
+    margin: auto;
     padding-bottom: 144px;
 }
 html {
-    margin: 0;
+    width: 100%;
+    margin: auto;
     position: relative;
     min-height: 100%;
 }
