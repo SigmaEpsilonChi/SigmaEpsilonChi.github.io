@@ -2,7 +2,7 @@
 	<link rel="stylesheet" href="/css/main.css">
 	
 	<div id="navbar" class="navbar">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+		<a href="javascript:void(0)" class="close" onclick="closeNav()">
 			<img src="/favicon-i.png" alt="Close" style="width:40px;height:40px;">
 		</a>
 		<div class="navbuttons">
@@ -12,9 +12,9 @@
 		</div>
 	</div>
 
-	<span style="cursor:pointer" onclick="openNav()">
-		<img src="/favicon.png" alt="Open" style="width:40px;height:40px;">
-	</span>
+	<div class="open" onclick="openNav()">
+		<img src="/favicon.png" alt="Open" style="width:40px;height:40px; padding: 8px;">
+	</div>
 
 	<script>
 		function openNav() {document.getElementById("navbar").style.height = "56px";}

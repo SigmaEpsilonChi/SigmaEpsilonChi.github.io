@@ -5,6 +5,10 @@ body {
 
     font-size: 28px;
     font-weight: 120;
+
+    display: block;
+
+    margin: 0;
 }
 a {
     color:#404040;
@@ -12,6 +16,7 @@ a {
 }
 
 /** NAV **/
+
 .navbar {
     top: 0;
     left: 0;
@@ -39,7 +44,7 @@ a {
 }
 
 .navbar a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #f0f0f0;
 }
 
 .navbuttons {
@@ -47,9 +52,14 @@ a {
     padding-left: 64px;
 }
 
-.navbar .closebtn {
+.navbar .close {
     position: absolute;
     top: 0;
+}
+
+.open {
+    cursor: pointer;
+    font-size: 32px;
 }
 
 /** CONTENT **/
@@ -76,14 +86,13 @@ a {
     color:#000;
     font-size: 18px;
     line-height: 24px;
-
 }
 
 #content > .section {
     clear: both;
 
-    margin-top: 40px;
-    margin-bottom: 25px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 
     font-size: 32px;
     font-weight: 120;
@@ -106,6 +115,16 @@ a {
 
     border: 1px solid #808080;
     border-radius: 8px;
+}
+
+.spacer {
+    clear: both;
+    height: 32px;
+}
+
+.more > a {
+    font-size: 24px;
+    color: #666;
 }
 
 /** BLOG **/
@@ -133,37 +152,40 @@ a {
     border-radius: 8px;
 }
 
-/** FOOTER **/
-
-.footer {
-    width: 100%;
-    display: block;
-
-    color: #808080;
-    text-align: center;
-    
-    margin: auto;
-    margin-top: 64px;
-}
-
-.footer > #homepage {
-    font-size: 24px;
-    padding:4px;
-}
-
-.footer > #twitter {
-    font-size: 20px;
-    padding:4px;
-}
-
 /** GAME **/
 
 .game {
     width: 100%;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    vertical-align: center;
+    margin: auto;
     text-align: center;
+    vertical-align: center;
+}
+
+/** FOOTER **/
+
+.footer {
+    clear: both;
+
+    width: 100%;
+    display: block;
+
+    background: #222;
+    text-align: center;
+
+    margin: auto;
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footer > div > a {
+    transition: 0.5s;
+}
+
+.footer > div {
+    padding: 4px;
+}
+
+.footer a:hover, .offcanvas a:focus{
+    color: #f0f0f0;
 }
