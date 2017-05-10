@@ -1,9 +1,82 @@
 <body>
-	<link rel="stylesheet" href="http://polytrope.com/css/main.css">
-	
+	<style scoped="true">
+		@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+
+		.nav-container {
+		    display: block;
+		    position: absolute;
+		    top: 0;
+
+		    width: 100%;
+		    height: 80px;
+
+		    margin-bottom: 80px;
+		}
+
+		.navbar {
+		    display: inline;
+		    position: fixed;
+
+		    overflow-x: hidden;
+		    overflow-y: hidden;
+
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 0;
+
+		    background-color: #111;
+
+		    z-index: 1;
+		    transition: 0.5s;
+		}
+
+		.navspacer {
+		    height: 64px;
+		}
+
+		.navbar a {
+		    padding: 8px;
+
+		    font-family: Raleway, sans-serif;
+		    font-weight: normal;
+
+		    color: #808080;
+		    font-size: 32px;
+		    text-decoration: none;
+
+		    transition: 0.2s;
+		}
+
+		.navbar a:hover, .offcanvas a:focus{
+		    color: #f0f0f0;
+		}
+
+		.navbuttons {
+		    padding-top: 8px;
+		    padding-left: 64px;
+		}
+
+		.navbar .close {
+		    position: absolute;
+		    top: 0;
+		}
+
+		.open {
+		    position: absolute;
+			top: 0;
+			left: 0;
+			margin: 0;
+			padding: 0;
+		
+		    cursor: pointer;
+		    font-size: 32px;
+		}
+	</style>
+
 	<div id="navbar" class="navbar">
 		<a href="javascript:void(0)" class="close" onclick="closeNav()">
-			<img src="http://polytrope.com/favicon-i.png" alt="Close" style="width:40px;height:40px;">
+			<img src="http://polytrope.com/favicon-i.png" alt="Close" style="width:40px; height:40px;">
 		</a>
 		<div class="navbuttons">
 			<a href="http://polytrope.com">Home</a>
@@ -13,8 +86,10 @@
 	</div>
 
 	<div class="open" onclick="openNav()">
-		<img src="http://polytrope.com/favicon.png" alt="Open" style="width:40px;height:40px; padding: 8px;">
+		<img src="http://polytrope.com/favicon.png" alt="Open" style="width:40px; height:40px; padding: 8px;">
 	</div>
+
+	<div class="navspacer"></div>
 
 	<script>
 		function openNav() {document.getElementById("navbar").style.height = "56px";}
