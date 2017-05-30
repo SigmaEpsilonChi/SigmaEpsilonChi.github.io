@@ -6,15 +6,9 @@ body {
     font-size: 28px;
     font-weight: normal;
 
-    display: block;
-
-    width: 100%;
-    margin: auto;
     padding-bottom: 144px;
 }
 html {
-    width: 100%;
-    margin: auto;
     position: relative;
     min-height: 100%;
 }
