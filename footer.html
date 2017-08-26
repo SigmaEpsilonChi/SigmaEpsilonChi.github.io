@@ -51,8 +51,12 @@
 		<div>
 			<a href="http://twitter.com/EnDimensions">Tweet Me: @EnDimensions</a>
 		</div>
-		<div>
-			<a href="mailto: cwalker@polytrope.com">Email Me: cwalker@polytrope.com</a>
-		</div>
+
+		<div id="emailContainerROT13"></div>
+		<script type=”text/javascript”>
+			let ciphertext = "<n uers=\"pjnyxre@cbylgebcr.pbz\" ery=\"absbyybj\">Rznvy Zr: pjnyxre@cbylgebcr.pbz</n>";
+			let plaintext = ciphertext.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+			document.getElementById("emailContainerROT13").innerHTML = plaintext;
+		</script>
 	</div>
 </body>
