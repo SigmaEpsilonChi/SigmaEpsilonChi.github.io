@@ -117,7 +117,8 @@ a {
 }
 
 .game-fullscreen {
-    font-size: 18px;
+    margin-top: 2px;
+    font-size: 16px;
     color: #BBB;
     cursor: pointer;
 }
@@ -132,7 +133,13 @@ a {
     margin: auto;
 }
 
-.game-notes {
+.game-description {
     font-size: 20px;
+    margin: auto;
+}
+
+.game-notes {
+    font-size: 18px;
+    font-style: italic;
     margin: auto;
 }
