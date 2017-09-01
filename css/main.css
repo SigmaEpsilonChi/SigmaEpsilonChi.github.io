@@ -7,10 +7,11 @@ body {
     font-weight: normal;
 
     padding-bottom: 144px;
+    
+    height: 100%;
 }
 html {
     position: relative;
-    min-height: 100%;
 }
 a {
     color:#404040;
